@@ -21,6 +21,9 @@ datasets/
 *.joblib
 *.model
 
+# Ignore everything inside models except .gitkeep
+models/
+
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
