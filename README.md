@@ -1,7 +1,7 @@
 # NLP Text Classifier
 
 A simple sentiment analysis project using the IMDB movie review dataset.
-It classifies text as **Positive** or **Negative** using **TF‑IDF** + **Logistic Regression**. fileciteturn1file0
+It classifies text as **Positive** or **Negative** using **TF‑IDF** + **Logistic Regression**.
 
 ## Prerequisites
 - **Python** (recommended: 3.10+)
@@ -47,26 +47,26 @@ source env/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
-The dependency list is pinned in `requirements.txt` (includes `scikit-learn`, `datasets`, `pandas`, `matplotlib`, `seaborn`, etc.). fileciteturn1file1
+The dependency list is pinned in `requirements.txt` (includes `scikit-learn`, `datasets`, `pandas`, `matplotlib`, `seaborn`, etc.).
 
 ## Run the project
 
 ### 1) Download the dataset
-Downloads the IMDB dataset from Hugging Face and writes it to `data/data.csv`. fileciteturn1file4
+Downloads the IMDB dataset from Hugging Face and writes it to `data/data.csv`.
 
 ```bash
 python download_data.py
 ```
 
 ### 2) Train the model
-Trains a TF‑IDF vectorizer + Logistic Regression model, prints evaluation metrics, and saves artifacts under `models/`. fileciteturn1file2
+Trains a TF‑IDF vectorizer + Logistic Regression model, prints evaluation metrics, and saves artifacts under `models/`.
 
 ```bash
 python train.py
 ```
 
 ### 3) Make predictions (interactive)
-Loads `models/model.pkl` + `models/vectorizer.pkl` and lets you type sentences to classify. fileciteturn1file3
+Loads `models/model.pkl` + `models/vectorizer.pkl` and lets you type sentences to classify.
 
 ```bash
 python predict.py
@@ -89,7 +89,7 @@ python train.py
 ```
 
 ### Dataset download issues
-`download_data.py` requires an internet connection and the Hugging Face `datasets` package. fileciteturn1file4
+`download_data.py` requires an internet connection and the Hugging Face `datasets` package.
 
 ## License
 MIT License
