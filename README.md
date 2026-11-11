@@ -1,3 +1,6 @@
+> [!WARNING]
+> **Deprecated: no longer maintained.** Last updated in December 2025; kept for reference.
+
 # NLP text classifier
 
 A small sentiment classifier that labels text as positive or negative, trained on the IMDB movie review dataset with TF-IDF features and logistic regression.
